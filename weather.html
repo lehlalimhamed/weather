@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #4682b4;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        div {
+            margin: 20px;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4682b4;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #5a9bd3;
+        }
+
+        #weatherResult {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Weather Meteo</h1>
+    <div>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button id="getWeatherBtn">Get Weather</button>
+    </div>
+    <div id="weatherResult">
+        
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+</html>
